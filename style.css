@@ -42,23 +42,29 @@ background-image: url(img/Dundermifflinlogoblack.png);
 }
 
 
-#container {
-    height: 800px;
-    background-repeat: no-repeat, repeat-x;
+#container1 {
+
     background-position: center;
-    background-image: url(img/officepic4.png);
-    background-size: 1000px;
+
     background-color: #8cb2d9;
 }
-
-#aboutcontainer {
-    height: 700px;
+.scrantonpic {
     background-color: #8cb2d9;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-margin: auto;
-padding: 50px;
+    padding: 20px 0px;
     text-align: center;
+}
+.scrantonpic img {
+    max-width: 2070px;
+    width: 100%;
+}
+
+# about {
+    background-color: #8cb2d9;
+    text-align: center;
+}
+
+. aboutimg {
+    max-width: inherit;
 }
 
 .text {
@@ -67,26 +73,22 @@ padding: 50px;
     background-color: #8cb2d9;
     text-align: left;
 }
-#mappic {
-    max-height: 400px;
-    max-height: 400px;
-}
 
-#mappic img {
-    width: 25%;
-}
 
 #image1 {
-    background-image: url(img/officepic1.png);
-    height: 740px;
-    width: 900px;
+    max-height: 740px;
+    max-width: 900px;
+}
+
+#image1 img {
+    width: 80%;
 }
 
 #about {
     color: black;
     text-align: center;
     margin: 40px ;
-    Height: 500px;
+    Height: 800px;
     border: 2px #d6a23f;
     background-color: #8cb2d9;
 }
@@ -142,3 +144,25 @@ height: 800px;
     color: #F55600;
     text-align: center;
 }
+.officepic {
+    background-color: #8cb2d9;
+    padding: 20px 0px;
+    text-align: center;
+}
+.officepic img {
+    max-width: 2070px;
+    width: 100%;
+}
+
+.mappic {
+    background-color: #8cb2d9;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.mappic img {
+    max-width: 2070px;
+    width: 70%;
+}
+
+@media screen and (max-width: 550px)
