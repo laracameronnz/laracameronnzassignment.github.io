@@ -24,30 +24,25 @@ background-image: url(img/Dundermifflinlogoblack.png);
 
 #nav {
     background-color: black;
-    border-bottom: 2px #d6a23f;
+    border-top: 4px solid #d6a23f;
     color: #3b7ca8;
     padding: 10px;
     text-align: center;
     word-spacing: 2em;
     font-size: 20px;
-    
 }
 
 
 . h1 {
-    color: #F55600;
-    font-size: 100px;
-    background-color: #F58876;
+    color: black;
+    font-size: 80px;
+    font-weight: 200;
+    background-color: #8cb2d9;
     text-align: center;
 }
 
-. orange {
-    color: #a62e2b;
-    text-align: center;
-}
 
 #container {
-
     height: 800px;
     background-repeat: no-repeat, repeat-x;
     background-position: center;
@@ -57,40 +52,58 @@ background-image: url(img/Dundermifflinlogoblack.png);
 }
 
 #aboutcontainer {
-padding-left: 140px;
-    padding-right: 140px;
-    height: 1600px;
-    background-repeat: no-repeat, repeat-x;
-    background-position: center;
-    background-size: 1000px;
+    height: 700px;
     background-color: #8cb2d9;
     display: grid;
-    grid-template-columns:;
-    grid-template-rows: ;
+    grid-template-columns: 1fr 1fr;
+margin: auto;
+padding: 50px;
+    text-align: center;
+}
+
+.text {
+    color: black;
+    font-size: 50px;
+    background-color: #8cb2d9;
+    text-align: left;
+}
+#mappic {
+    max-height: 400px;
+    max-height: 400px;
+}
+
+#mappic img {
+    width: 25%;
+}
+
+#image1 {
+    background-image: url(img/officepic1.png);
+    height: 740px;
+    width: 900px;
 }
 
 #about {
+    color: black;
+    text-align: center;
+    margin: 40px ;
+    Height: 500px;
+    border: 2px #d6a23f;
+    background-color: #8cb2d9;
+}
+
+#returns {
     color: #3b7ca8;
     text-align: center;
-    margin: 40px ;
-    Height: 350px;
-    border: 2px #d6a23f;
-   
-}
-#returns {
-    color: #f55600;
-    text-align: center;
-    margin: 40px ;
+    margin: 40px;
     Height: 550px;
-   
 }
 
 #contact {
-    color: #f55600;
+    color: #3b7ca8;
     text-align: center;
     margin: 40px ;
     Height: 650px;
-    border: 4px dashed #DB3700
+    border: 4px dashed #d6a23f;
 }
 
 .register_btn {
@@ -110,7 +123,7 @@ padding: 15px 30px;
 #footer {
     background-color: black;
     height: 80px;
-    border-top: 4px #d6a23f;
+    border-top: 4px solid #d6a23f;
     align-content: center;
     padding: 10px;
     color: white;
