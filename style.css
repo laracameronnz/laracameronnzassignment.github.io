@@ -1,7 +1,7 @@
 
 @import url('<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200&family=Ramaraja&display=swap" rel="stylesheet">');
 
-body {
+body1 {
     font-family: 'Plus Jakarta Sans', sans-serif;
     background-color: black;
     background-size: 800px, auto;
@@ -9,7 +9,7 @@ body {
     background-position: center; 280px, left top;
 }
 
-#header {
+#header1 {
     color: #3b7ca8;
     background-color: black;
     padding: 80px;
@@ -130,7 +130,8 @@ body, html {
     max-width: 70%;
     
 }
-
+/*    max-height: 70%;
+    max-width: 70%;*/
 .representives2, img {
     max-height: 70%;
     max-width: 70%;
